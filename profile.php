@@ -84,7 +84,7 @@
                                 <p class="post__title--modifier">'.$title.'</p>
                                 <div class="post_editDelete">
                                     <div class="post_edit">
-                                        <a href="" class="post_edit--modifier">Edit</a>
+                                        <a href="edit.php?id='.$get['id'].'" class="post_edit--modifier">Edit</a>
                                     </div>
                                     <a href="delete/deletePost.php?id='.$get['id'].'">
                                         <img src="assets/cross.svg" class="exit">
