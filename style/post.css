@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+}
+
+.post {
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto; 
+    padding: 100px 0px 0px 0px;
+}
+
+.post__title {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 10px 0px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.post__title--modifier {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.post__inputTitle {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 20px 0px;
+    text-align: center;
+}
+
+.inputTitle {
+    width: 80%;
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.post__content {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 0px 0px;
+    display: flex;
+}
+
+.post__content--modifier {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.inputImage {
+    margin: 0px 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textarea {
+    width: 100%;
+    min-height: 200px;
+    border-radius: 3px;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    resize: none;
+}
+
+.postButton {
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto;
+    cursor: pointer;
+}

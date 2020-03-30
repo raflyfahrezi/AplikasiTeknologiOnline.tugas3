@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+}
+
+.box {
+    width: min-content;
+    padding: 150px 0px 0px 0px;
+    margin: 0 auto;
+}
+
+.box__wrap {
+    width: min-content;
+    background-color: palegoldenrod;
+    padding: 0px 30px 15px 30px;
+    border-radius: 3px;
+}
+
+.box__title {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.box__title--modifier {
+    font-family: 'Sen', sans-serif;
+    font-size: 30px;
+}
+
+.form__content {
+    width: min-content;
+    padding: 5px 0px;
+}
+
+.input {
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid palegoldenrod;
+    outline: none;
+    transition: 0.5s;
+    font-family: 'Sen', sans-serif;
+}
+
+.input:focus {
+    border: 1px solid lightslategrey;
+}
+
+.form__button {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.button {
+    padding: 7px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: royalblue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Sen', sans-serif;
+}
+
+.button:active {
+    transform: scale(0.9);
+}
+
+.signup {
+    width: 150px;
+    text-align: center;
+    padding: 0px 0px 5px 0px;
+    /* background-color: blue; */
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+}
+
+.signup--modifier {
+    color: black;
+}
+
+.errorBox {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: lightcoral;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.errorBox--modifier {
+    font-family: 'Sen', sans-serif;
+    /* font-weight: bold; */
+    color: white;
+}   
