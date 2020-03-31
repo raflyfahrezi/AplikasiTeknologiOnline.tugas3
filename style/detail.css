@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+}
+
+.content {
+    max-width: 1000px;
+    padding: 100px 0px 0px 0px;
+    margin: 0 auto;
+}
+
+.content__title {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.content__title--modifier {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.content__image {
+    max-width: min-content;
+    height: min-content;
+    margin: 0 auto;
+}
+
+.image {
+    height: 300px;
+}
+
+.content__content {
+    width: 100%;
+    text-align: justify;
+}
+
+.content__content--modifier {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 50px 0px;
+}

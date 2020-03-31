@@ -67,6 +67,7 @@
                     };
 
                     echo '
+                    <a href="detail.php?id='.$get['id'].'">
                     <div class="post__container">
                         <div class="post__image">
                             <img src="'.$get['imageurl'].'" alt="" class="images">
@@ -82,7 +83,8 @@
                                 <p class="post__content--modifier">'.$content.'</p>
                             </div>
                         </div>
-                    </div> ';
+                    </div> 
+                    </a>';
                 }
              } else { 
                  echo '
