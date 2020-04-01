@@ -1,12 +1,6 @@
 <?php
     session_start();
 
-    // $path = __DIR__ ;
-    // echo $_SERVER['DOCUMENT_ROOT'];
-    // echo $path;
-    // // require($path);
-    // require_once __DIR__ . '/dbconfig.php';
-
     require('../db/dbconfig.php');
 
     $username = $_POST['username'];
